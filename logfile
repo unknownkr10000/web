@@ -1,0 +1,14 @@
+2018-06-04 14:23:46.971 KST [836] LOG:  listening on IPv6 address "::1", port 5432
+2018-06-04 14:23:46.971 KST [836] LOG:  listening on IPv6 address "fe80::1%lo0", port 5432
+2018-06-04 14:23:46.971 KST [836] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-06-04 14:23:46.972 KST [836] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-06-04 14:23:46.991 KST [838] LOG:  database system was shut down at 2018-06-04 14:23:41 KST
+2018-06-04 14:23:46.996 KST [836] LOG:  database system is ready to accept connections
+2018-06-04 14:23:51.341 KST [904] FATAL:  database "macbook" does not exist
+2018-06-04 14:25:51.896 KST [1637] FATAL:  database "macbook" does not exist
+2018-06-04 14:28:22.270 KST [1926] ERROR:  syntax error at or near "USER" at character 8
+2018-06-04 14:28:22.270 KST [1926] STATEMENT:  DELETE USER name;
+2018-06-04 14:29:23.040 KST [1926] ERROR:  relation "macbook" does not exist at character 15
+2018-06-04 14:29:23.040 KST [1926] STATEMENT:  SELECT * FROM macbook;
+2018-06-04 14:29:39.446 KST [1926] ERROR:  relation "webhacking_project" does not exist at character 15
+2018-06-04 14:29:39.446 KST [1926] STATEMENT:  sELECT * FROM webhacking_project;
